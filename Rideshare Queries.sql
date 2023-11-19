@@ -120,10 +120,12 @@ FROM
 /* --------- QUESTION 6 --------- */
 
 /* Retrieve from the trips table all the rides that started in the Loop (pickup_location_id: 50) on a Saturday and ended at O'Hare (dropoff_location_id: 63). Get the weather conditions for each ride. Use the method you applied in the previous task. Also, retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
+
 The table columns should be in the following order:
 - start_ts
 - weather_conditions
 - duration_seconds
+
 Sort by trip_id. */
 
 /* --------- SOLUTION 6 --------- */

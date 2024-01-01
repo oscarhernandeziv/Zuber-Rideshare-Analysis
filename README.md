@@ -1,6 +1,6 @@
-# The Zuber Database
+# Zuber Database Analysis Project
 
-## Summary
+## Overview
 Serving as a data analyst for Zuber, a new ride-sharing company that's launching in Chicago, my project was to find patterns in the available information, and to understand passenger preferences and the impact of external factors on rides.
 I studied the database, analyzed data from competitors, and investigated the impact of weather on ride frequency.
 
@@ -50,3 +50,12 @@ The table columns should be in the following order:
     - *duration_seconds*
 
     Sort by *trip_id*.
+
+## Conclusion
+
+1. *Flash Cab* had the highest number of rides for November 15-16, 2017, at 19558 rides.
+2. Among taxi companies whose name contains the words "Yellow" or "Blue" for November 1-7, 2017, the company with the highest number of rides was *Taxi Affiliation Service Yellow* with 29213 rides.
+3. The number of rides for all *other* taxi companies outside of the two most popular (*Flash Cab* and *Taxi Affiliation Services*) was 335771 rides.
+4. The neighborhood IDs for the Loop and O'Hare neighborhoods are 50 and 63, respectively.
+5. For each hour between November 1-9, 2017, the weather conditions were mostly *Good*.
+6. The trip that started in the Loop on a Saturday and ended at O'Hare with the first chronological trip ID started at 2017-11-25 12:00:00, had *Good* weather, and had a duration of 1380 seconds.
